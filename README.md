@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+Objective - The aim of the project is to provide an car sharing platform for both customers and users, where they shared an e-commercement relationship , which links with "Cars".
+Basically , this website is a beta version to be rolled out on HeroKu app for testing purposes.
+The website was Built using "MERN" STACK
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+where the frontend deals with React
+and Backend deals with Node JS and Express Js for servers
+MangoDB for database
 
-## Available Scripts
+STEPS TO EXECUTE THE WEBSITE
 
-In the project directory, you can run:
+STEP-1-"CLONE THE RESPOSITARY INTO LOCAL"
 
-### `npm start`
+STEP-2
+Things required to be install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-> Visual Studio Code - to test and code the program in the platform
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+->Important Pre-requisites to be installed are :
 
-### `npm test`
+1. Auto Rename Tag
+2.Bootstrap 5 and Font Awesome snippets
+3.ES7+React
+4.Icons
+5.JavaScripts(ES6) Code Snippets
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Create a Folder called "CarShare" in Desktop
 
-### `npm run build`
+go to VS code and open folder inside VS code
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+open terminal -"Type" - "npx create-react-carshare"
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+we get the "clientside" -Type 
+and then start -"npm start" --> "localhost:3000" - Website on air in internet.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+go to src -> App js -> Remove all the files between <div> </div> and type <h1>JRD CARS!</h1>
 
-### `npm run eject`
+to terminate batch job -> (Y/N) -y
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+create a react router dom and create folders called "Components" and "Pages".
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The folders in the component deals with the front end components - header, content and body
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+split the terminal
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+go to the folder called "BACKEND" - deals with Node , express and Mangoose
+and to run node express server and mongoDB database - nodemon index.js
 
-## Learn More
+and we see the database of mangodb top be displayed on react via Server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+"For testing the pages" -> install thunder client to test our database on client end server.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
